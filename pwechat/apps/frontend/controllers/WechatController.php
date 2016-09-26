@@ -17,9 +17,9 @@ class WechatController extends ControllerBase{
 
     public function initialize(){
         $this->config = array(
-            'BaseAddress'  => 'http://www.unclepang.com:2333/pwechat/',
-            'appId'        => 'wx038a0dc5a52a97df',
-            'appSecret'    => 'cf8a6fc628c00ecedb657b5b97bc4362',
+            'BaseAddress'  => 'your url',
+            'appId'        => 'your appid',
+            'appSecret'    => 'your appserect',
         );
 
       /*  $this->weixin = $this->jssdk->getSignPackage();
