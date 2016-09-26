@@ -4,8 +4,8 @@ return new \Phalcon\Config(array(
         'adapter' => 'Mysql',
         'host' => '127.0.0.1',
         'username' => 'root',
-        'password' => 'pang123',
-        'dbname' => 'yii2',
+        'password' => 'yourpassword',
+        'dbname' => 'databasename',
         'charset' => 'utf8'
     ),
     'application' => array(
@@ -15,7 +15,7 @@ return new \Phalcon\Config(array(
         'viewsDir' => __DIR__ . '/../views/',
         'cacheDir' => APP_PATH . '/apps/cache/',
         'servicesDir' =>APP_PATH .'/apps/services',
-        'encryptKey'  =>'_peterpang2016%$#$@^&',
+        'encryptKey'  =>'your own cryptKey',
         'baseUri' => '/pwechat/'
     )
 ));
