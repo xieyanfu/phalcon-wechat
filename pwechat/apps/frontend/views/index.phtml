@@ -1,22 +1,146 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>Phalcon PHP Framework</title>
-<!--<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
+    <meta charset="UTF-8">
+    <title>Phalcon番茄时钟</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        #clock span{
+            font-size: 10rem;
+            font-weight: bold;
+            font-family: Mshtakan;
+            color:white;
+        }
+        .pic{
+         animation: mymove 3s linear infinite;
+        }
+        @keyframes mymove {
+            0%{transform: rotate(0deg)}
+            100%{transform: rotate(360deg)}
+        }
+        #mm{
+            transition-delay: 1s;
+        }
+    </style>
+    <meta name="viewport" content="user-scalable=no"/>
+    <script>
+        var wxTitle = "番茄时钟定时器~";
+        var wxDesc = "番茄时钟定时器,你的时间,你来掌握~";
+        var wxURL = "{{ signPackage['url'] }}";
+        var wxIcon = "{{ info['headimgurl'] }}";
+        var appId = "{{ signPackage['appId'] }}";
+        var timestamp = "{{ signPackage['timestamp'] }}";
+        var nonceStr = "{{ signPackage['nonceStr'] }}";
+        var signature = "{{ signPackage['signature'] }}";
+    </script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 </head>
 <body>
-	<div class="container">
-            <?php echo $this->getContent(); ?>
+<center>
+    <div>
+        <span style="color:cyan;font-weight: bold;font-size:4.5rem;">Phalcon 番茄时钟</span>
+        <hr>
+        <img id="mm" src="{{ info['headimgurl'] }}" style="width:300px;height:300px;border-radius:150px;">
+        <br>
+        <span style="color:yellow;font-weight:bold;font-size:4rem;">{{ info['nickname'] }}</span>
+        <br>
+        <hr>
+        <div id="clock">
+           <!-- <span id="hour">00</span>
+            <span>:</span>-->
+            <span id="minute" style="color:green;">25</span>&nbsp;
+            <span style="color:red;">分</span>&nbsp;
+            <span id="second" style="color:gold;">00</span>&nbsp;
+            <span style="color:navy">秒</span>
         </div>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<!--<script
-		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<!-- Latest compiled and minified JavaScript -->
-	<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+        <hr>
+        <br><br>
+        <audio src="http://www.wegoart.com/gulou.mp3" id="test" loop="loop" <!--controls="controls"--> ></audio>
+        <button onclick='modo();' id='modo' style="font-weight: bold;font-size:3rem;color:royalblue;">选择模式</button>
+        <button onclick='play();' id='start' style="font-weight: bold;font-size:3rem;color:red;">开始</button>
+        <button onclick='choiceTime();' id='choiceTime' style="font-weight: bold;font-size:3rem;color:chartreuse;">选择时间</button>
+        <br><br>
+        <hr>
+        <br><br>
+        <button id='friend' onclick='friend()' style="font-weight: bold;font-size:3rem;color:darkmagenta;">我的好友</button>
+        <br><br>
+       <p style="color:white;font-size:2rem;">&copy;&nbsp;peterpang</p>
+    </div>
+</center>
+<?php
+$this->assets->outputJs();
+$this->assets->outputCss();
+?>
+<script>
+    function friend(){
+        alert('好友模块正在开发中...');
+    }
+    function modo(){
+        alert('模式模块正在开发中...');
+    }
+    function choiceTime(){
+        alert('时间模块正在开发中...');
+    }
+    var isPlaying =false;
+    function play() {
+        var player = document.getElementById('test');
+        var second = parseInt($('#second').html());
+        var minute = parseInt($('#minute').html());
+        if (isPlaying) {
+      // 如果正在播放, 停止播放并停止读取此音乐文件
+            player.pause();
+            isPlaying =false;
+            $('#start').html('开始');
+            clearInterval(timmer);
+            $('#mm').removeClass('pic');
+        } else {
+          //  player.src = '张信哲 - 过火.mp3';
+            if(minute==25&&second==0){
+                minute = 24;
+                second = 60;
+            }
+            player.play();
+            isPlaying =true;
+            $('#mm').addClass('pic');
+             timmer = setInterval(function(){
+                second--;
+                if(second<10){
+                    second = parseInt(second);
+                    second='0'+second;
+                }
+                if(second==0){
+                    //clearInterval(timer);
+                   // $('#mm').removeClass('pic');
+                    minute--;
+                    second = '0'+0;
+                }
+                 if(second=='00'){
+                     second = 59;
+                 }
+                 if(minute<10){
+                     minute = parseInt(minute);
+                     minute = "0"+minute;
+                 }
+                if(minute==0){
+                    second = '0'+0;
+                    minute = '0'+0;
+                    $('#mm').removeClass('pic');
+                    player.pause();
+                    player.src = '';
+                }
+                $('#second').html(second);
+                $('#minute').html(minute);
+
+            },1000);
+
+            $('#start').html('暂停');
+
+        }
+    }
+
+
+</script>
 </body>
 </html>
