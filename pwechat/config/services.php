@@ -12,13 +12,18 @@ use Phalcon\Mvc\Model\Metadata\Memory as MetaDataAdapter;
 use Phalcon\Mvc\View;
 use Phalcon\Mvc\View\Engine\Volt as VoltEngine;
 use Phalcon\Flash\Direct as Flash;
-//use Phalcon\Loader;
+use Phalcon\Cache\Backend\Memory as BackMemory;
+use Phalcon\Cache\Frontend\Data as FrontData;
+use Redis;
+use Phalcon\Crypt;
+use Phalcon\Security;
 
 /**
  * The FactoryDefault Dependency Injector automatically registers the right services to provide a full stack framework
  */
 $di = new FactoryDefault();
 
+$config = include __DIR__ . "/config.php";
 /**
  * Registering a router
  */
@@ -43,15 +48,17 @@ $di->setShared('url', function () use($config) {
 
 $di->set('crypt', function () use ($config) {
     $crypt = new Crypt();
-    $crypt->setKey($config->application->encryptKey);//Use your own key!
+    $crypt->setKey($config->application->encryptKey); //Use your own key!
     return $crypt;
 });
-
-$di->set('test', function (){
-     $test = new Test();
-     return $test;
+$di->set('test',function() {
+    $test = new Test();
+    return $test;
 });
-
+$di->setShared('jssdk',function() use ($config){
+      $jssdk = new Jssdk($config->weixin->appid,$config->weixin->appsecret,'http');
+      return $jssdk;
+});
 /**
  * Setting up the view component
  */
@@ -92,6 +99,25 @@ $di->setShared('db', function () use($config) {
     return new $class($dbConfig);
 });
 
+$di->setShared('redis', function () use ($config) {
+    $host = $config->redis->host;
+    $port = $config->redis->port;
+    $auth = $config->redis->auth;
+    $redis = new Redis();
+    $redis->connect($host,$port);
+    $redis->auth($auth);
+    return $redis;
+});
+
+$di->setShared('redis2', function () use ($config) {
+    $host = $config->redis->host;
+    $port = $config->redis->port;
+    $auth = $config->redis->auth;
+    $redis = new Redis();
+    $redis->connect($host, $port,$auth);
+    return $redis;
+
+});
 /**
  * If the configuration specify the use of metadata adapter use it or use memory otherwise
  */
