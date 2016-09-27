@@ -17,9 +17,9 @@ class WechatController extends ControllerBase{
 
     public function initialize(){
         $this->config = array(
-            'BaseAddress'  => 'your url',
-            'appId'        => 'your appid',
-            'appSecret'    => 'your appserect',
+            'BaseAddress'  => 'your appliaction url',
+            'appId'        =>'your appid',
+            'appSecret'    => 'your appsecret',
         );
 
       /*  $this->weixin = $this->jssdk->getSignPackage();
@@ -28,8 +28,9 @@ class WechatController extends ControllerBase{
     }
 
     public function testAction(){
-        $this->weixin = $this->jssdk->getAccessToken();
-        echo json_encode($this->weixin);
+       // echo 'test action';exit;
+        $signPackage = $this->jssdk->GetSignPackage();
+        var_dump($signPackage);
         exit;
     }
     public function indexAction(){
@@ -42,8 +43,10 @@ class WechatController extends ControllerBase{
               $this->session->set('wechat',$this->wechatinfo);
           }
           }
+        $signPackage = $this->jssdk->GetSignPackage();
+        $this->view->setParamToView('signPackage',$signPackage);
         $this->view->setParamToView('info',$this->wechatinfo);
-        $this->assets->addJs('public/js/fenxiang.selfopenid.js');
+        $this->assets->addJs('public/js/fenxiang.js');
         $this->assets->addJs('public/js/jquery.min.js');
         $this->assets->addJs('public/js/jquery.flipcountdown.js');
         $this->assets->addCss('public/css/jquery.flipcountdown.css');
@@ -72,7 +75,7 @@ class WechatController extends ControllerBase{
     public function getAccessToken() {
        /* $redis = new Redis();
         $redis->connect('127.0.0.1', 6379);
-        $redis->auth('pang123');*/
+        $redis->auth('your auth');*/
 
         $data = $this->redis->get('pa_access_token');
         if (!$data) {
