@@ -50,7 +50,6 @@ class Jssdk
             "signature" => $signature,
             "rawString" => $string
         );
-       // debug_info("getsignpackage".json_encode($signPackage));
         return $signPackage;
     }
 
@@ -88,7 +87,6 @@ class Jssdk
             $ticket = $data['jsapi_ticket'];
         }
 
-       // debug_info("getjsapiticket:".json_encode($data));
         return $ticket;
     }
 
@@ -103,23 +101,18 @@ class Jssdk
             $this->rcache->set('access_token', $data, 7200);
         }
 
-        //debug_info("getaccesstoken,get from S:".json_encode($data).".local time:".time());
         if ($data['expire_time'] < time()) {
             $url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=$this->appId&secret=$this->appSecret";
             $res = json_decode($this->httpGet($url));
-           // debug_info("getaccesstoken,actual get:".json_encode($res));
             $access_token = $res->access_token;
             if ($access_token) {
                 $data['expire_time'] = time() + 7000;
                 $data['access_token'] = $access_token;
-                //debug_info("getaccesstoken,get from remote:".json_encode($data));
                 $this->rcache->set('access_token', $data, 7200);
             }
         } else {
             $access_token = $data->access_token;
         }
-        //debug_info("getaccesstoken,b4 storage:".json_encode($data));
-       // debug_info("getaccesstoken:".json_encode($data));
         return $access_token;
     }
 
