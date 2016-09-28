@@ -66,7 +66,7 @@ $di->setShared('view', function () use($config) {
 
     $view = new View();
     echo $config->application->cacheDir;
-    exit();
+  //  exit();
     $view->setViewsDir($config->application->viewsDir);
 
     $view->registerEngines(array(

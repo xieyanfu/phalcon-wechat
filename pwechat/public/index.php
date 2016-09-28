@@ -15,7 +15,7 @@ try {
     /**
      * Include services
      */
-    require __DIR__ . '/../config/loader.php';
+   // require __DIR__ . '/../config/loader.php';
 
     require __DIR__ . '/../config/services.php';
 
