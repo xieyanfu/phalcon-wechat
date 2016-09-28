@@ -15,7 +15,7 @@ class Jssdk
         $this->protocol = $protocol;
         $redis = new Redis();
         $redis->connect('127.0.0.1',6379);
-        $redis->auth('your auth');
+        $redis->auth('your auth key');
         $this->rcache = $redis;
     }
     public function test(){

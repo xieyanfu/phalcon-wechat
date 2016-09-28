@@ -25,6 +25,7 @@ foreach ($application->getModules() as $key => $module) {
         'params' => 3
     ));
     $router->notFound(array(
+        'namespace'  =>'Wechat\Frontend\/',
         'module' =>'frontend',
         'controller'  =>'index',
         'action'     =>'err404'
