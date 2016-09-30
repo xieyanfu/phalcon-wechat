@@ -230,7 +230,7 @@ function wxready() {
         if (backpath){
             console.log("backpath: "+backpath);
             cookie.defaults.path="/";
-            cookie.defaults.domain="www.iihwx.com";
+            cookie.defaults.domain="www.test.com";
             cookie.remove('backpath');
             console.log("after clear up, backpath: "+cookie.get('backpath'));
             //if (!(typeof(wxDebug)==='undefined') && (wxDebug==1)){
@@ -242,7 +242,7 @@ function wxready() {
             wxId=openid;
             //console.log("get openid info done, go page sign now");
             $.ajax({
-                url: 'http://www.iihwx.com/iih_wechatbs/home/index/getSignPackage_url',
+                url: 'http://www.test.com/test/home/index/getSignPackage_url',
                 type: 'POST',
                 dataType: 'json',
                 data: {
