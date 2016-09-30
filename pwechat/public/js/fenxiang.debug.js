@@ -170,7 +170,7 @@ function wxready() {
 }
 
 $.ajax({
-    url: 'http://www.iihwx.com/iih_wechatbs/home/index/getSignPackage_url',
+    url: 'http://www.test.com/test/home/index/getSignPackage_url',
     type: 'POST',
     dataType: 'json',
     data: {url:window.location.href},
