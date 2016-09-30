@@ -1,4 +1,4 @@
-# phalcon-wechat
+# phalcon-wechat PHP
 phalcon 微信接口实现
 最近看到phalcon这个框架，性能确实不错，就想着写点东西来熟悉下，这个框架。所以就结合比较流行的微信来实现一些微信接口吧。
 phalcon这个框架比较灵活，可以自由组织项目结构。本项目中，分了两层，分别为frontend和backend。当然你也可以pull下来自己重新进行结构分层。
