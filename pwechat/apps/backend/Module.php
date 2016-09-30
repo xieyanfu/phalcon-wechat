@@ -8,7 +8,6 @@ use Phalcon\Mvc\ModuleDefinitionInterface;
 
 class Module implements ModuleDefinitionInterface
 {
-
     /**
      * Registers an autoloader related to the module
      *
@@ -22,7 +21,11 @@ class Module implements ModuleDefinitionInterface
             'Wechat\Admin\Controllers' => __DIR__ . '/controllers/',
             'Wechat\Admin\Models' => __DIR__ . '/models/'
         ));
-
+        $loader->registerDirs(
+            array(
+                __DIR__.'/../services/'
+            )
+        );
         $loader->register();
     }
 
@@ -44,7 +47,12 @@ class Module implements ModuleDefinitionInterface
         $di['view'] = function () {
             $view = new View();
             $view->setViewsDir(__DIR__ . '/views/');
-
+            $view->registerEngines(
+                array(
+                    '.phtml' => 'Phalcon\Mvc\View\Engine\Volt'
+                    //'.volt' => 'Phalcon\Mvc\View\Engine\Volt'
+                )
+            );
             return $view;
         };
 

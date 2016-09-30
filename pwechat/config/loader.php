@@ -1,14 +1,19 @@
 <?php
 
-$loader = new \Phalcon\Loader();
+static $_globalLoader;
 
-/**
- * We're a registering a set of directories taken from the configuration file
- */
-$loader->registerDirs(
-    array(
-        $config->application->controllersDir,
-        $config->application->modelsDir,
-        $config->application->servicesDir
-    )
-)->register();
+if (!$_globalLoader){
+    $_globalLoader = new \Phalcon\Loader();
+
+    /**
+     * We're a registering a set of directories taken from the configuration file
+     */
+    $_globalLoader->registerDirs(
+        array(
+            $config->application->servicesDir
+        )
+    )->register();
+}
+
+
+return $_globalLoader;

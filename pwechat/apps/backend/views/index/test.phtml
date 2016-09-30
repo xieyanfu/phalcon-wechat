@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test page</title>
+    <?php
+    $this->assets->outputJs();
+    $this->assets->outputCss();
+    ?>
+</head>
+<body>
+<center>
+<h1>汉字转首字母缩写</h1>
+    <br>
+    汉字:<input type="text" id='word' name="word" placeholder="请输入你要转换的汉字" style="width:200px;"><br><br><br>
+    结果:<input type="text" id="res" style="width:200px;"><br>
+    <button id="test">转换</button>
+</center>
+<script>
+    $('#test').click(function(){
+         if($('#word').val()==""||$('#word').val()==null){
+             alert('请输入你需要转换的内容!');return false;
+         }
+        $.ajax({
+           url:'index',
+          type:'POST',
+          data:{'word':$('#word').val()},
+       success:function(res){
+           $('#res').val(res);
+           $('#res').css('backgroundColor','yellow');
+           $('#res').css('color','red');
+       }
+        });
+    });
+</script>
+
+
+
+</body>
+</html>

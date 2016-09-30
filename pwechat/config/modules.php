@@ -4,13 +4,13 @@
  * Register application modules
  */
 $application->registerModules(array(
-        'frontend' => array(
-            'className' => 'Wechat\Frontend\Module',
+        'home' => array(
+            'className' => 'Wechat\Home\Module',
             'path' => __DIR__ . '/../apps/frontend/Module.php'
         ),
         'admin' => array(
             'className' => 'Wechat\Admin\Module',
-            'path' => __DIR__ . '/../apps/admin/Module.php'
+            'path' => __DIR__ . '/../apps/backend/Module.php'
         )
     )
 );

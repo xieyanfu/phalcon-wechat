@@ -4,7 +4,6 @@
  *
  * @var \Phalcon\Config $config
  */
-use Phalcon\Mvc\Router;
 use Phalcon\Mvc\Url as UrlResolver;
 use Phalcon\Di\FactoryDefault;
 use Phalcon\Session\Adapter\Files as SessionAdapter;
@@ -17,6 +16,7 @@ use Phalcon\Cache\Frontend\Data as FrontData;
 use Redis;
 use Phalcon\Crypt;
 use Phalcon\Security;
+use Phalcon\Mvc\Router;
 
 /**
  * The FactoryDefault Dependency Injector automatically registers the right services to provide a full stack framework
@@ -27,14 +27,14 @@ $config = include __DIR__ . "/config.php";
 /**
  * Registering a router
  */
+
 $di->setShared('router', function () {
     $router = new Router();
-
-    $router->setDefaultModule('frontend');
-    $router->setDefaultNamespace('Wechat\Frontend\Controllers');
-
+    $router->setDefaultModule('home');
+    $router->setDefaultNamespace('Wechat\Home\Controllers');
     return $router;
 });
+
 
 /**
  * The URL component is used to generate all kinds of URLs in the application
@@ -55,6 +55,10 @@ $di->set('test',function() {
     $test = new Test();
     return $test;
 });
+$di->set('switch',function() {
+    $switch = new Switchzh();
+    return $switch;
+});
 $di->setShared('jssdk',function() use ($config){
       $jssdk = new Jssdk($config->weixin->appid,$config->weixin->appsecret,'http');
       return $jssdk;
@@ -66,7 +70,7 @@ $di->setShared('view', function () use($config) {
 
     $view = new View();
     echo $config->application->cacheDir;
-  //  exit();
+    exit();
     $view->setViewsDir($config->application->viewsDir);
 
     $view->registerEngines(array(

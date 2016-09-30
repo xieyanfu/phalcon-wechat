@@ -1,5 +1,7 @@
 <?php
+
 $router = $di->get("router");
+//var_dump($application->getModules());die;
 foreach ($application->getModules() as $key => $module) {
     $namespace = str_replace('Module', 'Controllers', $module["className"]);
     $router->add('/' . $key . '/:params', array(
@@ -25,12 +27,15 @@ foreach ($application->getModules() as $key => $module) {
         'params' => 3
     ));
     $router->notFound(array(
-        'namespace'  =>'Wechat\Frontend\/',
-        'module' =>'frontend',
+        'module' =>'home',
         'controller'  =>'index',
         'action'     =>'err404'
     ));
+   // $router->removeExtraSlashes(true);
 
 }
-
 $di->set("router", $router);
+
+
+
+
