@@ -25,4 +25,7 @@ class TestController extends ControllerBase
    public function testAction(){
        echo 'test Action';
    }
+   public function saveAction(){
+       echo 'save action page...';
+   }
 }
