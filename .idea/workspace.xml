@@ -172,7 +172,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -305,11 +305,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pwechat/public/js" />
       <recent name="$PROJECT_DIR$/pwechat/apps" />
       <recent name="$PROJECT_DIR$/pwechat" />
       <recent name="$PROJECT_DIR$/pwechat/config" />
       <recent name="$PROJECT_DIR$/pwechat/apps/services" />
-      <recent name="$PROJECT_DIR$/pwechat/apps/frontend" />
     </key>
   </component>
   <component name="RunManager">
@@ -506,6 +506,14 @@
     <entry file="file://$PROJECT_DIR$/pwechat/apps/logs/test.log">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwechat/public/js/fenxiang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.139535">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
