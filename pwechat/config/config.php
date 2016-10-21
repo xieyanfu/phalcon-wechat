@@ -5,7 +5,7 @@ return new \Phalcon\Config(array(
         'adapter' => 'Mysql',
         'host' => '127.0.0.1',
         'username' => 'root',
-        'password' => 'pang123',
+        'password' => 'password',
         'dbname' => 'yii2',
         'charset' => 'utf8'
     ),
@@ -22,12 +22,12 @@ return new \Phalcon\Config(array(
     'redis'  =>array(
         'host'       =>'127.0.0.1',
         'port'       =>'6379',
-        'auth'       =>'pang123',
+        'auth'       =>'auth password',
     ),
     'weixin'  =>array(
-        'base_address'      =>'http://www.unclepang.com:2333/pwechat/home/wechat/index/',
-        'appid'             =>'wx038a0dc5a52a97df',
-        'appsecret'         =>'cf8a6fc628c00ecedb657b5b97bc4362',
+        'base_address'      =>'server url',
+        'appid'             =>'appid',
+        'appsecret'         =>'appsecret',
     )
 
 
