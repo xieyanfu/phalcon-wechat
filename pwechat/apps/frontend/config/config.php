@@ -4,7 +4,7 @@
         'adapter' => 'Mysql',
         'host' => '127.0.0.1',
         'username' => 'root',
-        'password' => 'pang123',
+        'password' => 'password',
         'dbname' => 'yii2',
         'charset' => 'utf8'
     ),
