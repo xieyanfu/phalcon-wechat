@@ -1,0 +1,4 @@
+[Sat, 13 May 17 18:43:54 +0800][DEBUG] salesOrderListfindConditions : {"conditions":"(Orders.DelFlg = 0) AND (Orders.SalesId = :salesId:)","bind":{"salesId":"2"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.RoomId,Room.RoomNo,Orders.Mobile,Orders.OrderStatus,\n        Orders.PayType,Orders.Label,Orders.Release,Orders.SalesId,Orders.UptDt,Orders.CrtDt"]}
+[Sat, 13 May 17 18:43:54 +0800][DEBUG] salesOrderListfindConditions : {"conditions":"(Orders.DelFlg = 0) AND (Orders.SalesId = :salesId:)","bind":{"salesId":"2"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.RoomId,Room.RoomNo,Orders.Mobile,Orders.OrderStatus,\n        Orders.PayType,Orders.Label,Orders.Release,Orders.SalesId,Orders.UptDt,Orders.CrtDt"]}
+[Sat, 13 May 17 18:43:54 +0800][DEBUG] salesOrderListorder list get pages info done : 1494672234
+[Sat, 13 May 17 18:43:54 +0800][DEBUG] salesOrderListorder list get pages info done : 1494672234

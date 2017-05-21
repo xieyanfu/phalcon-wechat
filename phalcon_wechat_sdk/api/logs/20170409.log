@@ -1,0 +1,16 @@
+[Sun, 09 Apr 17 02:10:35 +0800][DEBUG] generateManagerAndProjectToken项目编码错误\n
+[Sun, 09 Apr 17 02:10:55 +0800][DEBUG] generateManagerAndProjectToken项目编码错误\n
+[Sun, 09 Apr 17 02:10:56 +0800][DEBUG] generateManagerAndProjectToken项目编码错误\n
+[Sun, 09 Apr 17 03:27:12 +0800][DEBUG] generateUserToken no emp issue\n13817319050 12345a
+[Sun, 09 Apr 17 03:27:13 +0800][DEBUG] generateUserToken no emp issue\n13817319050 12345a
+[Sun, 09 Apr 17 03:27:13 +0800][DEBUG] generateUserToken no emp issue\n13817319050 12345a
+[Sun, 09 Apr 17 03:27:13 +0800][DEBUG] generateUserToken no emp issue\n13817319050 12345a
+[Sun, 09 Apr 17 03:28:22 +0800][DEBUG] generateManagerAndProjectToken项目编码错误\n
+[Sun, 09 Apr 17 03:28:25 +0800][DEBUG] generateManagerAndProjectToken项目编码错误\n
+[Sun, 09 Apr 17 03:28:29 +0800][DEBUG] findConditions Conditions: "(Orders.ProjectId = :projectId:) AND (Orders.DelFlg = 0)   AND (Orders.CrtDt > :minDt:) AND (Orders.OrderStatus = 2)"
+[Sun, 09 Apr 17 03:28:29 +0800][DEBUG] findConditions toBind: {"projectId":"20170307100555823955","minDt":0}
+[Sun, 09 Apr 17 03:28:39 +0800][DEBUG] allOrderStatisticsorder list get pages info done : 1491679719
+[Sun, 09 Apr 17 03:32:30 +0800][DEBUG] allOrderStatisticsorder list get pages info done : 1491679950
+[Sun, 09 Apr 17 11:36:47 +0800][DEBUG] findConditions Conditions: "(Orders.ProjectId = :projectId:) AND (Orders.SalesId in ({salesId:array})) AND (Orders.DelFlg = 0)   AND (Orders.CrtDt > :minDt:) AND (Orders.OrderStatus = 2)"
+[Sun, 09 Apr 17 11:36:47 +0800][DEBUG] findConditions toBind: {"projectId":"20170307100555823955","salesId":["23","26","29"],"minDt":0}
+[Sun, 09 Apr 17 11:37:41 +0800][DEBUG] allOrderStatisticsorder list get pages info done : 1491709061
