@@ -1,0 +1,9 @@
+[Mon, 06 Mar 17 08:48:36 +0800][DEBUG] generateUserToken no emp issue\n 123456
+[Mon, 06 Mar 17 08:48:36 +0800][DEBUG] userLoginActionuserToken: false
+[Mon, 06 Mar 17 08:48:43 +0800][DEBUG] generateUserToken no emp issue\n 123456
+[Mon, 06 Mar 17 08:48:43 +0800][DEBUG] userLoginActionuserToken: false
+[Mon, 06 Mar 17 08:48:44 +0800][DEBUG] generateUserToken no emp issue\n 123456
+[Mon, 06 Mar 17 08:48:44 +0800][DEBUG] userLoginActionuserToken: false
+[Mon, 06 Mar 17 08:48:50 +0800][DEBUG] userLoginActionuserToken: {"userToken":"b64982f44177bc5eb119502393c6f9c8d459ec34","roleId":"1","Mobile":"13888888888"}
+[Mon, 06 Mar 17 10:08:35 +0800][DEBUG] userLoginActionuserToken: {"userToken":"e23756d57653cf3358ce288904d2bcdd3b0a8a9b","roleId":"1","Mobile":"13888888888"}
+[Mon, 06 Mar 17 10:18:26 +0800][DEBUG] userLoginActionuserToken: {"userToken":"5833cebba95b795c088673cda15cddc5a8a9674b","roleId":"1","Mobile":"13888888888"}

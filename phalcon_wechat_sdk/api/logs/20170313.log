@@ -1,0 +1,305 @@
+[Mon, 13 Mar 17 09:49:47 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:49:48 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:50:37 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:50:37 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:50:37 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:50:38 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:50:38 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:50:38 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:50:38 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:50:38 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:50:38 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:50:39 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:52:44 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:52:44 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:52:45 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:52:45 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:52:45 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:52:45 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:52:45 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:52:45 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 09:52:46 +0800][DEBUG] generateUserToken no emp issue\n139999999999 123456
+[Mon, 13 Mar 17 10:33:34 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:33:34 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:33:34 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:33:34 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:33:34 +0800][DEBUG] orderListorder list get pages info done : 1489372414
+[Mon, 13 Mar 17 10:33:51 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:33:51 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:33:51 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:33:51 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:33:51 +0800][DEBUG] orderListorder list get pages info done : 1489372431
+[Mon, 13 Mar 17 10:33:52 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:33:52 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:33:52 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:33:52 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:33:52 +0800][DEBUG] orderListorder list get pages info done : 1489372432
+[Mon, 13 Mar 17 10:34:01 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:34:01 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:34:01 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:34:01 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:34:01 +0800][DEBUG] orderListorder list get pages info done : 1489372441
+[Mon, 13 Mar 17 10:34:40 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:34:40 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:34:40 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:34:40 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:34:40 +0800][DEBUG] orderListorder list get pages info done : 1489372480
+[Mon, 13 Mar 17 10:34:47 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:34:47 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:34:47 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:34:47 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:34:47 +0800][DEBUG] orderListorder list get pages info done : 1489372487
+[Mon, 13 Mar 17 10:34:47 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:34:47 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:34:47 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:34:47 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:34:47 +0800][DEBUG] orderListorder list get pages info done : 1489372487
+[Mon, 13 Mar 17 10:34:47 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:34:47 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:34:47 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:34:47 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:34:47 +0800][DEBUG] orderListorder list get pages info done : 1489372487
+[Mon, 13 Mar 17 10:34:48 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:34:48 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:34:48 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:34:48 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:34:48 +0800][DEBUG] orderListorder list get pages info done : 1489372488
+[Mon, 13 Mar 17 10:34:48 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:34:48 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:34:48 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:34:48 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:34:48 +0800][DEBUG] orderListorder list get pages info done : 1489372488
+[Mon, 13 Mar 17 10:34:48 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:34:48 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:34:48 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:34:48 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:34:48 +0800][DEBUG] orderListorder list get pages info done : 1489372488
+[Mon, 13 Mar 17 10:34:49 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:34:49 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:34:49 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:34:49 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:34:49 +0800][DEBUG] orderListorder list get pages info done : 1489372489
+[Mon, 13 Mar 17 10:35:07 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:35:07 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:35:07 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:35:07 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:35:07 +0800][DEBUG] orderListorder list get pages info done : 1489372507
+[Mon, 13 Mar 17 10:39:16 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:39:16 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:39:16 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:39:16 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:39:16 +0800][DEBUG] orderListorder list get pages info done : 1489372756
+[Mon, 13 Mar 17 10:39:18 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:39:18 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:39:18 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:39:18 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:39:18 +0800][DEBUG] orderListorder list get pages info done : 1489372758
+[Mon, 13 Mar 17 10:39:20 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:39:20 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:39:20 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:39:20 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:39:20 +0800][DEBUG] orderListorder list get pages info done : 1489372760
+[Mon, 13 Mar 17 10:39:45 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:39:45 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:39:45 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:39:45 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:39:45 +0800][DEBUG] orderListorder list get pages info done : 1489372785
+[Mon, 13 Mar 17 10:40:49 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:40:49 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:40:49 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:40:49 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:40:49 +0800][DEBUG] orderListorder list get pages info done : 1489372849
+[Mon, 13 Mar 17 10:41:36 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:41:36 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:41:36 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:41:36 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:41:36 +0800][DEBUG] orderListorder list get pages info done : 1489372896
+[Mon, 13 Mar 17 10:42:43 +0800][DEBUG] {closure} data : ["1,2,3,4"]
+[Mon, 13 Mar 17 10:42:43 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:42:43 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:42:43 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:42:43 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:42:43 +0800][DEBUG] orderListorder list get pages info done : 1489372963
+[Mon, 13 Mar 17 10:42:46 +0800][DEBUG] {closure} data : ["1,2,3,4"]
+[Mon, 13 Mar 17 10:42:46 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:42:46 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:42:46 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:42:46 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:42:46 +0800][DEBUG] orderListorder list get pages info done : 1489372966
+[Mon, 13 Mar 17 10:42:48 +0800][DEBUG] {closure} data : ["1,2,3,4"]
+[Mon, 13 Mar 17 10:42:48 +0800][DEBUG] {closure} filter : null
+[Mon, 13 Mar 17 10:42:48 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0"
+[Mon, 13 Mar 17 10:42:48 +0800][DEBUG] findConditions toBind: []
+[Mon, 13 Mar 17 10:42:48 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0","bind":[],"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:42:48 +0800][DEBUG] orderListorder list get pages info done : 1489372968
+[Mon, 13 Mar 17 10:45:01 +0800][DEBUG] {closure} data : {"userToken":"1f5e00c3f332f70cfcf6c832c599262e1a5b2543","filter":"{\"keyword\":\"13666666666\",\"orderStatus\":\"1\",\"payType\":\"0\"}","pageSize":"10","pageNumber":"0"}
+[Mon, 13 Mar 17 10:45:01 +0800][DEBUG] {closure} filter : {"keyword":"13666666666","orderStatus":"1","payType":"0"}
+[Mon, 13 Mar 17 10:45:01 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 10:45:01 +0800][DEBUG] findConditions toBind: {"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"1","payType":"0"}
+[Mon, 13 Mar 17 10:45:01 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"1","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:45:01 +0800][DEBUG] orderListorder list get pages info done : 1489373101
+[Mon, 13 Mar 17 10:45:21 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 10:45:21 +0800][DEBUG] findConditions toBind: {"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"1","payType":"0"}
+[Mon, 13 Mar 17 10:45:21 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"1","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:45:21 +0800][DEBUG] orderListorder list get pages info done : 1489373121
+[Mon, 13 Mar 17 10:45:26 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 10:45:26 +0800][DEBUG] findConditions toBind: {"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 10:45:26 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:45:26 +0800][DEBUG] orderListorder list get pages info done : 1489373126
+[Mon, 13 Mar 17 10:45:51 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 10:45:51 +0800][DEBUG] findConditions toBind: {"customerNm":"%周伯通%","mobile":"%周伯通%","mobile2":"%周伯通%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 10:45:51 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%周伯通%","mobile":"%周伯通%","mobile2":"%周伯通%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:45:51 +0800][DEBUG] orderListorder list get pages info done : 1489373151
+[Mon, 13 Mar 17 10:46:01 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 10:46:01 +0800][DEBUG] findConditions toBind: {"customerNm":"%周伯通%","mobile":"%周伯通%","mobile2":"%周伯通%","orderStatus":"1","payType":"0"}
+[Mon, 13 Mar 17 10:46:01 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%周伯通%","mobile":"%周伯通%","mobile2":"%周伯通%","orderStatus":"1","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:46:01 +0800][DEBUG] orderListorder list get pages info done : 1489373161
+[Mon, 13 Mar 17 10:49:14 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 10:49:14 +0800][DEBUG] findConditions toBind: {"customerNm":"%周伯通%","mobile":"%周伯通%","mobile2":"%周伯通%","orderStatus":"1","payType":"0"}
+[Mon, 13 Mar 17 10:49:14 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%周伯通%","mobile":"%周伯通%","mobile2":"%周伯通%","orderStatus":"1","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:49:14 +0800][DEBUG] orderListorder list get pages info done : 1489373354
+[Mon, 13 Mar 17 10:51:16 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 10:51:16 +0800][DEBUG] findConditions toBind: {"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"1","payType":"0"}
+[Mon, 13 Mar 17 10:51:16 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"1","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:51:16 +0800][DEBUG] orderListorder list get pages info done : 1489373476
+[Mon, 13 Mar 17 10:51:17 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 10:51:17 +0800][DEBUG] findConditions toBind: {"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"1","payType":"0"}
+[Mon, 13 Mar 17 10:51:17 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"1","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:51:17 +0800][DEBUG] orderListorder list get pages info done : 1489373477
+[Mon, 13 Mar 17 10:51:20 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 10:51:20 +0800][DEBUG] findConditions toBind: {"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"1","payType":"0"}
+[Mon, 13 Mar 17 10:51:20 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"1","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:51:20 +0800][DEBUG] orderListorder list get pages info done : 1489373480
+[Mon, 13 Mar 17 10:51:20 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 10:51:20 +0800][DEBUG] findConditions toBind: {"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"1","payType":"0"}
+[Mon, 13 Mar 17 10:51:20 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"1","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:51:20 +0800][DEBUG] orderListorder list get pages info done : 1489373480
+[Mon, 13 Mar 17 10:51:31 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 10:51:31 +0800][DEBUG] findConditions toBind: {"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 10:51:31 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:51:31 +0800][DEBUG] orderListorder list get pages info done : 1489373491
+[Mon, 13 Mar 17 10:51:33 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 10:51:33 +0800][DEBUG] findConditions toBind: {"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 10:51:33 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:51:33 +0800][DEBUG] orderListorder list get pages info done : 1489373493
+[Mon, 13 Mar 17 10:51:36 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 10:51:36 +0800][DEBUG] findConditions toBind: {"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 10:51:36 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:51:36 +0800][DEBUG] orderListorder list get pages info done : 1489373496
+[Mon, 13 Mar 17 10:51:37 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 10:51:37 +0800][DEBUG] findConditions toBind: {"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 10:51:37 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:51:37 +0800][DEBUG] orderListorder list get pages info done : 1489373497
+[Mon, 13 Mar 17 10:51:37 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 10:51:37 +0800][DEBUG] findConditions toBind: {"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 10:51:37 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 10:51:37 +0800][DEBUG] orderListorder list get pages info done : 1489373497
+[Mon, 13 Mar 17 11:00:40 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
+[Mon, 13 Mar 17 11:09:30 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
+[Mon, 13 Mar 17 11:09:44 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
+[Mon, 13 Mar 17 11:09:46 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
+[Mon, 13 Mar 17 11:09:46 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
+[Mon, 13 Mar 17 11:09:47 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
+[Mon, 13 Mar 17 11:10:23 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
+[Mon, 13 Mar 17 11:10:24 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
+[Mon, 13 Mar 17 11:10:24 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
+[Mon, 13 Mar 17 11:11:06 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
+[Mon, 13 Mar 17 11:11:56 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
+[Mon, 13 Mar 17 11:11:56 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
+[Mon, 13 Mar 17 11:11:57 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
+[Mon, 13 Mar 17 11:11:57 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
+[Mon, 13 Mar 17 13:31:15 +0800][DEBUG] findConditions Conditions: "Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:31:15 +0800][DEBUG] findConditions toBind: {"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:31:15 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:31:15 +0800][DEBUG] orderListorder list get pages info done : 1489383075
+[Mon, 13 Mar 17 13:35:14 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:35:14 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:35:14 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:35:14 +0800][DEBUG] orderListorder list get pages info done : 1489383314
+[Mon, 13 Mar 17 13:35:15 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:35:15 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:35:15 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:35:15 +0800][DEBUG] orderListorder list get pages info done : 1489383315
+[Mon, 13 Mar 17 13:35:35 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:35:35 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:35:35 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:35:35 +0800][DEBUG] orderListorder list get pages info done : 1489383335
+[Mon, 13 Mar 17 13:35:36 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:35:36 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:35:36 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:35:36 +0800][DEBUG] orderListorder list get pages info done : 1489383336
+[Mon, 13 Mar 17 13:35:37 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:35:37 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:35:37 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:35:37 +0800][DEBUG] orderListorder list get pages info done : 1489383337
+[Mon, 13 Mar 17 13:36:11 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:36:11 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:36:11 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:36:11 +0800][DEBUG] orderListorder list get pages info done : 1489383371
+[Mon, 13 Mar 17 13:36:12 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:36:12 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:36:12 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:36:12 +0800][DEBUG] orderListorder list get pages info done : 1489383372
+[Mon, 13 Mar 17 13:36:24 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:36:24 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:36:24 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:36:24 +0800][DEBUG] orderListorder list get pages info done : 1489383384
+[Mon, 13 Mar 17 13:36:25 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:36:25 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:36:25 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:36:25 +0800][DEBUG] orderListorder list get pages info done : 1489383385
+[Mon, 13 Mar 17 13:37:34 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:37:34 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:37:34 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:37:34 +0800][DEBUG] orderListorder list get pages info done : 1489383454
+[Mon, 13 Mar 17 13:37:35 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:37:35 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:37:35 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:37:35 +0800][DEBUG] orderListorder list get pages info done : 1489383455
+[Mon, 13 Mar 17 13:37:36 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:37:36 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:37:36 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:37:36 +0800][DEBUG] orderListorder list get pages info done : 1489383456
+[Mon, 13 Mar 17 13:37:36 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:37:36 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:37:36 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:37:36 +0800][DEBUG] orderListorder list get pages info done : 1489383456
+[Mon, 13 Mar 17 13:37:36 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:37:36 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:37:36 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:37:36 +0800][DEBUG] orderListorder list get pages info done : 1489383456
+[Mon, 13 Mar 17 13:37:46 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0"
+[Mon, 13 Mar 17 13:37:46 +0800][DEBUG] findConditions toBind: {"salesId":"2"}
+[Mon, 13 Mar 17 13:37:46 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0","bind":{"salesId":"2"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:37:46 +0800][DEBUG] orderListorder list get pages info done : 1489383466
+[Mon, 13 Mar 17 13:37:55 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0"
+[Mon, 13 Mar 17 13:37:55 +0800][DEBUG] findConditions toBind: {"salesId":"2"}
+[Mon, 13 Mar 17 13:37:55 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0","bind":{"salesId":"2"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:37:55 +0800][DEBUG] orderListorder list get pages info done : 1489383475
+[Mon, 13 Mar 17 13:38:00 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:38:00 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:38:00 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:38:00 +0800][DEBUG] orderListorder list get pages info done : 1489383480
+[Mon, 13 Mar 17 13:38:10 +0800][DEBUG] findConditions Conditions: "Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:38:10 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:38:10 +0800][DEBUG] orderListfindConditions : {"conditions":"Orders.SalesId = :salesId: AND Orders.DelFlg = 0 AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:38:10 +0800][DEBUG] orderListorder list get pages info done : 1489383490
+[Mon, 13 Mar 17 13:39:01 +0800][DEBUG] findConditions Conditions: "(Orders.SalesId = :salesId:) AND (Orders.DelFlg = 0) AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:39:01 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:39:01 +0800][DEBUG] orderListfindConditions : {"conditions":"(Orders.SalesId = :salesId:) AND (Orders.DelFlg = 0) AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:39:01 +0800][DEBUG] orderListorder list get pages info done : 1489383541
+[Mon, 13 Mar 17 13:39:02 +0800][DEBUG] findConditions Conditions: "(Orders.SalesId = :salesId:) AND (Orders.DelFlg = 0) AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:39:02 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:39:02 +0800][DEBUG] orderListfindConditions : {"conditions":"(Orders.SalesId = :salesId:) AND (Orders.DelFlg = 0) AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:39:02 +0800][DEBUG] orderListorder list get pages info done : 1489383542
+[Mon, 13 Mar 17 13:39:02 +0800][DEBUG] findConditions Conditions: "(Orders.SalesId = :salesId:) AND (Orders.DelFlg = 0) AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:39:02 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:39:02 +0800][DEBUG] orderListfindConditions : {"conditions":"(Orders.SalesId = :salesId:) AND (Orders.DelFlg = 0) AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:39:02 +0800][DEBUG] orderListorder list get pages info done : 1489383542
+[Mon, 13 Mar 17 13:39:02 +0800][DEBUG] findConditions Conditions: "(Orders.SalesId = :salesId:) AND (Orders.DelFlg = 0) AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)"
+[Mon, 13 Mar 17 13:39:02 +0800][DEBUG] findConditions toBind: {"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"}
+[Mon, 13 Mar 17 13:39:02 +0800][DEBUG] orderListfindConditions : {"conditions":"(Orders.SalesId = :salesId:) AND (Orders.DelFlg = 0) AND (Orders.CustomerNm LIKE :customerNm:) OR (Orders.Mobile LIKE :mobile:) OR (Orders.Mobile2 LIKE :mobile2:) AND (Orders.OrderStatus = :orderStatus:) AND (Orders.PayType = :payType:)","bind":{"salesId":"2","customerNm":"%13666666666%","mobile":"%13666666666%","mobile2":"%13666666666%","orderStatus":"0","payType":"0"},"columns":["Orders.Id as OrderId,Orders.OrderNo,Orders.CustomerNm,Orders.Mobile,Orders.OrderStatus,Orders.PayType,Orders.Label,Orders.CrtDt,Orders.UptDt"]}
+[Mon, 13 Mar 17 13:39:02 +0800][DEBUG] orderListorder list get pages info done : 1489383542
+[Mon, 13 Mar 17 14:12:48 +0800][DEBUG] generateUserToken no emp issue\n13888888888 1234567
+[Mon, 13 Mar 17 14:40:09 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
+[Mon, 13 Mar 17 14:41:36 +0800][DEBUG] generateUserAndProjectToken公司编码错误\n
