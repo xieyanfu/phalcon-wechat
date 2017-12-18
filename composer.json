@@ -1,14 +1,20 @@
 {
-    "name": "peterpang/phalcon-wechat",
-    "description": "this is a project for test composer packagist.",
-    "type": "project",
-    "license": "MIT",
-    "author":"peterpang",
-    "minimum-stability": "stable",
-    "repositories": {
-        "0": {
-            "type": "vcs",
-            "url": "https://github.com/peterpang55/phalcon-wechat.git"
-        }
+  "require": {
+    "php": ">=7.0.0",
+    "monolog/monolog": "1.22.1",
+    "hassankhan/config": "~0.10"
+  }
+  },
+  "authors": [
+    {
+      "name": "peterpang",
+      "email": "10846295@qq.com",
+      "homepage": "https://github.com/peterpang55"
     }
+  ],
+  "name": "peterpang/phalcon-wechat",
+  "type": "library",
+  "keywords": ["phalcon", "wechat", "weixin"],
+  "description": "This is phalcon framework with wechat develop.",
+  "license": "MIT"
 }
