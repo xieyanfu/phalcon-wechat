@@ -3,7 +3,6 @@
     "php": ">=7.0.0",
     "monolog/monolog": "1.22.1",
     "hassankhan/config": "~0.10"
-  }
   },
   "authors": [
     {
