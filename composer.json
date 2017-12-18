@@ -1,1 +1,14 @@
-
+{
+    "name": "peterpang/phalcon_wechat",
+    "description": "this is a project for test composer packagist.",
+    "type": "project",
+    "license": "MIT",
+    "author":"peterpang",
+    "minimum-stability": "stable",
+    "repositories": {
+        "0": {
+            "type": "vcs",
+            "url": "https://github.com/peterpang55/test-composer.git"
+        }
+    }
+}
